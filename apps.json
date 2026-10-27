@@ -1,0 +1,44 @@
+[
+  {
+    "folder": "01-where-was-i",
+    "path": "where-was-i",
+    "name": "Where was I?",
+    "category": "Functionality & UI",
+    "short": "Save your tabs and your next step. Come back with context."
+  },
+  {
+    "folder": "02-form-companion",
+    "path": "form-companion",
+    "name": "Form Companion",
+    "category": "Workflow & Planning",
+    "short": "Save reusable answers, fill a field you choose, and keep your documents in order."
+  },
+  {
+    "folder": "03-job-application-tracker",
+    "path": "job-application-tracker",
+    "name": "Job Application Tracker",
+    "category": "Workflow & Planning",
+    "short": "Save opportunities, track every application, and remember your next follow-up."
+  },
+  {
+    "folder": "04-explain-this-page",
+    "path": "explain-this-page",
+    "name": "Explain This Page",
+    "category": "Education",
+    "short": "Bring in a passage, then explain, summarize, or translate it with on-device AI."
+  },
+  {
+    "folder": "05-return-warranty-keeper",
+    "path": "return-warranty-keeper",
+    "name": "Return & Warranty Keeper",
+    "category": "Shopping",
+    "short": "Remember return windows and warranty dates before they slip away."
+  },
+  {
+    "folder": "06-bug-report-in-one-click",
+    "path": "bug-report-in-one-click",
+    "name": "Bug Report in One Click",
+    "category": "Developer Tools",
+    "short": "Capture the page, add reproduction steps, and export a report ready to share."
+  }
+]

@@ -1,0 +1,580 @@
+COMMON SUBMISSION SETTINGS
+Version covered: 0.2.1.
+Publisher name: Prashant Kumar Dubey
+Developer/support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Primary language: English (United States), en-US. The extension interface is English; AI output-language choices are not separate localized store listings.
+
+Remote code answer for all six: No, I am not using remote code.
+Remote code explanation: All extension JavaScript and styles are packaged locally. There are no remote script imports, eval-based downloaded code, or remotely hosted extension code. Explain This Page uses a browser-provided AI API; Chrome may download/manage its own model, but the extension does not fetch or execute remotely hosted extension JavaScript.
+
+DATA USAGE - IMPORTANT
+Do not select a blanket "no user data handled" answer. Data handling must be disclosed even if it is local. The per-extension checklist below is a conservative mapping for these builds; read the current dashboard definitions before certifying. It includes the types intentionally supported by each feature and notes optional sensitive content. Website content includes the saved/captured page content and user-generated text; Web history is used for the current/selected page URLs, not a complete browsing-history database.
+
+The extensions have no developer-operated backend, analytics, advertising, data broker, or extension-initiated cloud sync. They do not sell data, use it for ads, or use it for creditworthiness/lending. Local data is used to provide the prominently described user-facing features. User-triggered exports/copies/filling and website-opening requests are described in each policy. Do not claim local data is never handled, never leaves the device under any circumstance, or is application-level encrypted.
+
+DATA-USE CERTIFICATIONS (for the unchanged builds reviewed here)
+Check the statements that user data is not sold/transferred outside approved use cases; is not used/transferred for purposes unrelated to the item's single purpose; and is not used/transferred to determine creditworthiness or for lending. Read the exact dashboard wording before accepting. These statements must continue to be true after any future changes.
+
+POLICY URL STATUS
+The URLs in this pack are PROPOSED, NOT PUBLISHED OR VERIFIED LIVE. A GitHub profile is not a privacy-policy URL. Upload the included privacy-policy-site contents to a public chrome-extensions repository owned by prashantdubey07, enable GitHub Pages, and verify every policy opens publicly over HTTPS before entering its URL in the dashboard. If you choose another repository/domain, replace the proposed URLs accordingly.
+
+ASSETS
+Each folder contains a 128x128 PNG store icon with a 96x96 artwork area and 16px transparent margins, plus two real extension-UI screenshots at 1280x800. The AI screenshot shows the real non-AI source-excerpt mode, not invented model output. Demo data is synthetic. Icon artwork follows the existing code-generated letter/arrow identity.
+Use upload-package.zip for that extension when available: it contains the verified 0.2.1 source with only the store-sized icons/128.png substituted. The store-content pack itself is NOT an extension upload ZIP.
+
+The current Chrome image guide makes the store icon and at least one screenshot mandatory. A small promotional tile is optional and is not included here. Categories below are recommended selections based on the current official category definitions.
+
+
+==============================================================================
+
+WHERE WAS I?
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Functionality & UI
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Save your tabs and your next step. Come back with context.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Pick up where you left off, with the context you need.
+
+Where was I? saves selected web tabs as a named workspace, along with a note about what to do next. When you return, search your workspaces and reopen the saved pages together in a new window.
+
+Features:
+- Choose which web tabs to save from the current window.
+- Add a next-step note so you remember why you saved them.
+- Edit workspace names and notes, and pin important workspaces.
+- Search workspace names, notes, tab titles, and URLs.
+- Restore a workspace in a new window while keeping the saved copy.
+- Export/import JSON backups and undo the most recent deletion during the current Chrome session.
+- Recover unfinished workspace names and notes in the same browser window during the current session.
+
+Your workspaces stay in your Chrome profile. No account, analytics, or extension-operated cloud service is used.
+
+This extension saves URLs and notes, not scroll positions, unsent forms, login sessions, navigation history, or tab groups. Only regular HTTP/HTTPS tabs are supported. Chrome internal pages, local files, and incognito tabs are excluded.
+
+Requires desktop Chrome 116 or newer.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users pause and resume browser work by saving selected web tabs together with a next-step note.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+tabs:
+Required to read titles and URLs for web tabs in the current window, show the tab-selection list, save the tabs the user chooses, and restore saved workspaces. It is not used to read the complete browsing-history database or page bodies.
+
+storage:
+Required to store workspaces, next-step notes, pin status, and dates in chrome.storage.local, and temporary drafts and deletion recovery in chrome.storage.session. The extension does not use chrome.storage.sync.
+
+sidePanel:
+Required to show the workspace manager beside the user’s current web page so they can select tabs, write a next-step note, and resume saved work.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[ ] Personally identifiable information
+[ ] Health information
+[ ] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+Selected open-tab URLs and titles; workspace names, next-step notes, creation dates, pin status, and temporary drafts/undo records. Only the tabs the user selects are saved. The extension does not read page bodies or the complete browser-history database.
+
+Clarification:
+If your intended use includes storing personally identifying details in workspace notes, also disclose Personally identifiable information. Notes are free text; the extension does not extract a user identity or profile.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/where-was-i.html
+Draft text: 01-where-was-i/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/where-was-i.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 01-where-was-i/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 01-where-was-i/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 01-where-was-i/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 01-where-was-i/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.
+
+
+==============================================================================
+
+FORM COMPANION
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Workflow & Planning
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Save reusable answers, fill a field you choose, and keep your documents in order.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Spend less time typing the same answers into online forms.
+
+Form Companion keeps reusable answers and a document checklist beside your browser. Copy an answer, personalize a template, or fill a specific field that you choose.
+
+Features:
+- Save, search, edit, and copy reusable answers.
+- Add placeholders such as {{name}} and {{company}} and preview the completed answer.
+- Scan a page’s supported field labels after granting access through the toolbar icon.
+- Choose both a saved answer and a website field before filling it.
+- Keep a checklist of required documents without uploading the documents themselves.
+- Export/import JSON backups, recover unfinished text drafts, and undo the most recent deletion during the current Chrome session.
+
+The extension does not submit forms automatically. It excludes password fields and common payment/one-time-code fields from scanning, but this is not a universal sensitive-field detector. Review the selected field and the filled answer before submitting a website form.
+
+Supported fields are visible, enabled text/email/telephone/URL/search inputs and textareas in the top-level page. Cross-origin frames, shadow DOM, custom editors, and some complex forms are not supported.
+
+Answers and checklist records stay in your Chrome profile. Placeholder values stay in the open panel only. No account, AI service, analytics, or application backend is required. Avoid saving passwords or payment details as reusable answers.
+
+Requires desktop Chrome 116 or newer.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users prepare and complete online forms using reusable answers, explicitly chosen field filling, and a required-document checklist.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+storage:
+Required to save reusable answers and document-checklist items locally, and to recover unfinished form text and the most recent deletion during the current Chrome session. Placeholder values and website field values are not stored as draft records.
+
+sidePanel:
+Required to keep reusable answers, template preparation, field selection, and the document checklist visible beside the online form the user is completing.
+
+activeTab:
+Required for temporary, user-initiated access to the current website after the user clicks the toolbar icon. Access is used only when the user requests field scanning or chosen-field filling; there is no permanent host access.
+
+scripting:
+Required to run packaged code in the current page’s isolated world to enumerate supported field labels/types, track the scanned elements, and set the value of the field the user explicitly chooses. The code does not submit the form or read existing field contents.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[x] Personally identifiable information
+[ ] Health information
+[ ] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+Reusable answer names/text, template text, document/task labels and completion state, dates, temporary drafts/undo records, and user-entered placeholder values. On request it reads the current page URL, supported field labels/types, and element references to safely fill the chosen field. It does not read existing field values during scanning or upload documents.
+
+Clarification:
+Personally identifiable information covers names, email addresses, telephone numbers, and other identifying details users may intentionally enter into reusable answers or placeholder values. No account identifiers are extracted automatically.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/form-companion.html
+Draft text: 02-form-companion/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/form-companion.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 02-form-companion/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 02-form-companion/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 02-form-companion/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 02-form-companion/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.
+
+
+==============================================================================
+
+JOB APPLICATION TRACKER
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Workflow & Planning
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Save opportunities, track every application, and remember your next follow-up.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Keep your job search organized, from saved opportunity to final decision.
+
+Job Application Tracker helps you record opportunities, track application stages, and keep your next step close at hand.
+
+Features:
+- Save a job title, company, listing URL, application date, and notes.
+- Capture the current page’s title and URL after clicking the toolbar icon, then confirm the details yourself.
+- Track Saved, Applied, Interview, Offer, Rejected, and Withdrawn stages.
+- Search opportunities and filter by application status.
+- Schedule an optional local follow-up reminder.
+- Export the currently searched/filtered jobs as CSV.
+- Export/import JSON backups, recover unfinished form drafts, and undo the most recent deletion during the current Chrome session.
+
+Your application records stay in your Chrome profile. There is no account, analytics, application backend, or automatic job submission.
+
+Reminders use Chrome notifications and require Chrome to be running with notifications allowed by your browser and operating system. Sleep or browser scheduling can delay reminders. Offer, Rejected, and Withdrawn stages stop follow-up reminders. Capturing a title/URL does not extract application forms or apply for a job.
+
+Requires desktop Chrome 116 or newer.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users organize their job applications and remember application-related follow-ups.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+storage:
+Required to retain job opportunities, application stages/dates, notes, follow-up times, and notification-delivery markers locally, and temporary drafts/deletion recovery in Chrome session storage.
+
+sidePanel:
+Required to display and update the application tracker alongside job listings without leaving the page.
+
+activeTab:
+Required to read the current page’s title and URL only when the user invokes the extension and chooses to capture a job listing. It does not provide continuous browsing-history collection.
+
+alarms:
+Required to schedule the next job follow-up and recheck reminders on startup and periodic checks, including reminders that became due while Chrome was not running.
+
+notifications:
+Required to display the follow-up reminders the user schedules. Notifications contain the relevant job title and company and open the tracker when clicked.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[x] Personally identifiable information
+[ ] Health information
+[ ] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+Job titles, companies, job-listing URLs, application stages/dates, notes, reminder times, record timestamps, reminder-delivery markers, and temporary drafts/undo records. A user action can read the active tab title and URL. Names/contact details may be included voluntarily in application notes.
+
+Clarification:
+Personally identifiable information covers user-supplied employment/application details and any contact information the user intentionally places in notes. No résumé, mailbox, or job-site account is accessed automatically.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/job-application-tracker.html
+Draft text: 03-job-application-tracker/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/job-application-tracker.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 03-job-application-tracker/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 03-job-application-tracker/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 03-job-application-tracker/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 03-job-application-tracker/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.
+
+
+==============================================================================
+
+EXPLAIN THIS PAGE
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Education
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Bring in a passage, then explain, summarize, or translate it with on-device AI.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Get help understanding a passage without leaving the page.
+
+Explain This Page brings selected text, article text, or a pasted passage into a reading side panel. On compatible Chrome installations, Chrome’s built-in on-device AI can explain it simply, summarize key points, or translate it.
+
+Features:
+- Bring in selected text or the current page’s article after granting access through the toolbar icon.
+- Paste and review an English passage of up to 12,000 characters.
+- Choose Explain simply, Summarize key points, or Translate when on-device AI is available.
+- Choose English, Spanish, Japanese, German, or French output where supported by the installed model.
+- Use clearly labeled source excerpts without AI when the browser cannot run the model.
+- Copy results, save reading notes with the source used for the result, reopen the original source, and export Markdown.
+- Export/import JSON backups, recover unfinished source text and its attribution, and undo the most recent deletion during the current Chrome session.
+
+No account, API key, analytics, or hosted AI endpoint is used by this extension. Chrome may need to download a model. AI availability depends on Chrome’s supported browser, device, storage, language, and administrator-policy requirements. AI can make mistakes; check its output against the source.
+
+Requires desktop Chrome 138 or newer. The current source-language setup expects English text. The non-AI mode shows source sentences; it is not a generated explanation. PDF extraction, cross-origin frames, and shadow DOM are not supported.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users understand and retain passages they select or paste by offering reading assistance and saved reading notes.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+storage:
+Required to save reading notes, source passages/URLs, and results locally and recover source-text drafts and the most recent deletion during the current Chrome session. Unsaved AI outputs are not sent to a server.
+
+sidePanel:
+Required to present the passage, reading-assistance controls, result, and reading-note library alongside the source page.
+
+activeTab:
+Required for temporary access to the current page after the user clicks the extension toolbar icon and chooses selected-text or article capture. Pasting text does not require page access.
+
+scripting:
+Required to run packaged code that reads only the selected text or requested article/main/body text and page title/URL from the current top-level document. It does not continuously scrape pages or inspect cookies or form fields.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated. Chrome manages any on-device AI model download; the extension uses the built-in API and does not download executable extension code.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[x] Personally identifiable information
+[ ] Health information
+[ ] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+User-selected/pasted text or requested page article text; page title and URL; generated results or source excerpts; saved reading-note dates; temporary source drafts/attribution and undo records. Content may include personally identifying information if the user chooses such a passage. AI processes the passage on-device through Chrome’s built-in API.
+
+Clarification:
+Personally identifiable information is disclosed conservatively because user-selected/pasted passages can contain names or other identifying details. The extension does not extract a user profile, read cookies, or call a hosted AI endpoint.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/explain-this-page.html
+Draft text: 04-explain-this-page/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/explain-this-page.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 04-explain-this-page/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 04-explain-this-page/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 04-explain-this-page/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 04-explain-this-page/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.
+
+
+==============================================================================
+
+RETURN & WARRANTY KEEPER
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Shopping
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Remember return windows and warranty dates before they slip away.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Keep return windows and warranty dates from slipping away.
+
+Return & Warranty Keeper gives you a local place to record purchases and the dates that matter. Confirm deadlines against the store’s policy, choose a reminder lead time, and keep receipt references close to the item.
+
+Features:
+- Save an item, store, purchase date, order/product URL, and notes.
+- Record a last return date, warranty end date, or both.
+- Capture the current page’s title and URL after clicking the toolbar icon, then confirm the purchase details yourself.
+- Choose reminders 1, 3, or 7 days before each deadline.
+- Search purchases and filter Active, Returned, and Archived records.
+- Export active deadlines as a calendar .ics file for manual import.
+- Export/import JSON backups, recover unfinished form drafts, and undo the most recent deletion during the current Chrome session.
+
+Purchase records stay in your Chrome profile. The extension does not connect to shopping accounts, read email receipts, process payments, or infer return eligibility. No account, analytics, or application backend is required.
+
+Chrome reminders require Chrome to be running and browser/operating-system notifications to be allowed. Sleep or browser scheduling may delay them. Active-purchase reminders are scheduled for 9 AM local time on the reminder day; Returned and Archived records stop reminders. Calendar exports are snapshots and do not sync automatically; imported reminder behavior depends on your calendar app.
+
+Requires desktop Chrome 116 or newer.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users remember return windows and warranty deadlines for purchases they choose to record.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+storage:
+Required to store purchase records, return/warranty dates, reminder settings, order/receipt references, and notification-delivery markers locally, with temporary drafts/deletion recovery in session storage.
+
+sidePanel:
+Required to show the purchase/deadline manager beside an order or product page so the user can confirm and record details.
+
+activeTab:
+Required to read the current page title and URL only when the user invokes the extension and chooses to capture an order/product link. It is not used to read shopping-account data or payment forms.
+
+alarms:
+Required to schedule deadline reminders and recheck due reminders on startup and periodic checks, including reminders missed while Chrome was not running.
+
+notifications:
+Required to show the return-window and warranty reminders requested by the user. Notifications include the item and relevant deadline and open the purchase manager when clicked.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[x] Personally identifiable information
+[ ] Health information
+[x] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+Item/store names, purchase dates, return/warranty dates, order/product URLs, reminder lead times, status, receipt/order references and notes, timestamps, notification-delivery markers, and temporary drafts/undo records. It handles purchase-related information but does not access bank accounts, payment credentials, shopping accounts, or inboxes.
+
+Clarification:
+Financial and payment information is disclosed for purchase/order and receipt-reference information, not payment-card collection or payment processing. Personally identifiable information covers identifying order/receipt references and any personal details the user chooses to add.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/return-warranty-keeper.html
+Draft text: 05-return-warranty-keeper/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/return-warranty-keeper.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 05-return-warranty-keeper/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 05-return-warranty-keeper/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 05-return-warranty-keeper/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 05-return-warranty-keeper/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.
+
+
+==============================================================================
+
+BUG REPORT IN ONE CLICK
+Version: 0.2.1
+Publisher: Prashant Kumar Dubey
+Support email: prashantdubey194@gmail.com
+Developer website: https://github.com/prashantdubey07
+Recommended category: Developer Tools
+Language: English (United States), en-US
+
+SHORT DESCRIPTION
+Capture the page, add reproduction steps, and export a report ready to share.
+
+DETAILED STORE DESCRIPTION - COPY THIS
+Turn a browser problem into a report someone can act on.
+
+Bug Report in One Click captures the current page’s visible viewport and basic browser context, then helps you describe how to reproduce the issue. Review the screenshot, cover private details, and download a report ready to share yourself.
+
+Features:
+- Capture the visible page screenshot, URL, title, browser user-agent, viewport/screen size, pixel ratio, and capture time after granting page access through the toolbar icon.
+- Drag over private details to cover them with solid rectangles, undo the latest redaction, or reset redactions.
+- Add steps to reproduce, expected/actual behavior, severity, and frequency.
+- Save and search report text locally.
+- Download Markdown or copy a report.
+- Download a ZIP containing the current report and redacted PNG together.
+- Export/import text-record backups, recover unfinished report text, and undo the most recent deletion during the current Chrome session.
+
+No report is submitted automatically, and no screenshot is uploaded by the extension. Screenshots stay in panel memory and are lost when the panel closes or reloads; download them to keep a copy. Saved reports and backups contain report text, not screenshots.
+
+The extension does not collect console logs, network traffic, cookies, or browsing history. Screenshot capture is limited to the visible viewport, and protected browser pages may block access. Review URLs and screenshots for private details before sharing exported files.
+
+Requires desktop Chrome 116 or newer.
+
+SINGLE PURPOSE DESCRIPTION - COPY THIS
+Help users create reproducible bug reports from the current web page, including an optional redacted screenshot.
+
+PERMISSION JUSTIFICATIONS - COPY INTO THE MATCHING FIELDS
+storage:
+Required to save report text, reproduction details, environment metadata, and dates locally and recover unfinished report text/the most recent deletion during the current Chrome session. Screenshot pixels are not written to local or session storage.
+
+sidePanel:
+Required to keep the bug-report form and screenshot editor beside the page being reported.
+
+activeTab:
+Required for user-initiated access to the current page and captureVisibleTab after the user clicks the extension toolbar icon. Capture happens only when the user chooses Capture page & screenshot.
+
+scripting:
+Required to run packaged code that reads the current page title/URL and browser/viewport/screen metadata for the report. It does not read cookies, passwords, console logs, or network requests.
+
+Host permission justification: Not applicable. No permanent host_permissions or optional_host_permissions are declared.
+
+REMOTE CODE
+Answer: No, I am not using remote code.
+Explanation: All executable extension code is included in the upload package. No remotely hosted JavaScript is loaded or evaluated.
+
+DATA USAGE - RECOMMENDED DASHBOARD CHECKBOXES FOR THIS BUILD
+[x] Personally identifiable information
+[ ] Health information
+[ ] Financial and payment information
+[ ] Authentication information
+[ ] Personal communications
+[ ] Location
+[x] Web history
+[ ] User activity
+[x] Website content
+
+Data handled and why:
+On request: current page URL/title, visible-page screenshot pixels, browser user-agent, viewport/screen dimensions, pixel ratio and capture time. Users enter report titles, reproduction steps, expected/actual behavior, severity, frequency and environment notes. Redaction pointer coordinates/rectangles are used transiently in the screenshot editor, not as behavioral analytics. Report text/dates and temporary drafts/undo records stay locally; screenshot pixels stay in panel memory unless explicitly downloaded.
+
+Clarification:
+Personally identifiable information is disclosed because screenshots and report text may include names, email addresses, or other identifying details visible on the page. No device fingerprint, account ID, cookies, console logs, or network-monitoring data is collected. Redaction gestures are editor input, not general user-activity tracking.
+
+Storage/transmission:
+Saved records remain in the current Chrome profile; temporary drafts/undo use session storage. No automatic transmission to the developer, advertising, telemetry, or extension-operated cloud sync. User-directed copying, export, field filling, and opening websites can move data to the destination chosen by the user. Review the accompanying policy for exact scope.
+
+Data-use certifications: Use the three common certifications described at the start of all-listings.txt; all must match the unchanged product behavior.
+
+PRIVACY POLICY URL
+Status: PROPOSED - NOT HOSTED OR VERIFIED LIVE. DO NOT SUBMIT UNTIL PUBLISHED.
+Proposed URL: https://prashantdubey07.github.io/chrome-extensions/privacy/bug-report-in-one-click.html
+Draft text: 06-bug-report-in-one-click/privacy-policy.txt
+Hosting file: privacy-policy-site/privacy/bug-report-in-one-click.html
+
+STORE ICON AND SCREENSHOTS
+Icon: 06-bug-report-in-one-click/assets/store-icon-128.png (128x128 PNG, transparent padding)
+Screenshot 1: 06-bug-report-in-one-click/assets/screenshot-01-overview.png (1280x800 PNG)
+Screenshot 2: 06-bug-report-in-one-click/assets/screenshot-02-features.png (1280x800 PNG)
+Extension upload: 06-bug-report-in-one-click/upload-package.zip (same verified 0.2.1 code; padded 128px icon)
+
+Developer attribution comes from the Publisher name in your Chrome Web Store account. A policy URL must point directly to a public policy page, not to the GitHub profile or a private repository.

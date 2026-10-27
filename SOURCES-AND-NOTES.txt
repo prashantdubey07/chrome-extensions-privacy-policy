@@ -1,0 +1,26 @@
+Prepared 27 October 2026 against local version 0.2.1 code and these official sources:
+
+Local data still needs disclosure and a privacy policy:
+https://developer.chrome.com/docs/webstore/program-policies/user-data-faq
+
+Purpose, permission explanations, remote-code and data-use fields:
+https://developer.chrome.com/docs/webstore/cws-dashboard-privacy
+
+Current categories:
+https://developer.chrome.com/docs/webstore/best-practices
+
+Store image dimensions, icon padding, and screenshot requirements:
+https://developer.chrome.com/docs/webstore/images
+
+GitHub Pages hosting:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+Not yet done: public policy hosting; Chrome Web Store upload/review/publication;
+real on-device AI output validation; OS notification delivery; normal toolbar
+permission grants; calendar-client import checks. These assets do not change
+that validation status or guarantee approval.
+
+Data checkbox suggestions include local processing. Incidental sensitive content
+may occur in user-supplied text/screenshots; review the actual intended use and
+current dashboard definitions rather than declaring every possible category.
+Personally identifying content is explicitly called out for the capture/form apps.
